@@ -27,7 +27,7 @@ __version__ = "0.4"
 import os
 import sys
 from threading import Thread
-from cuckoo2mist.class_mist import MIST
+from main.cuckoo2mist.class_mist import MIST
 
 class MISTThread(Thread):
 	def __init__(self, input_file, output_file,

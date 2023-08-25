@@ -35,7 +35,7 @@ import xml.etree.ElementTree as ET
 from multiprocessing import cpu_count
 from pymp import Parallel
 
-from cuckoo2mist.class_mist import MIST
+from main.cuckoo2mist.class_mist import MIST
 
 num_cpus = cpu_count()
 

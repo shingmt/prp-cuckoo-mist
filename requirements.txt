@@ -1,3 +1,6 @@
 kafka-python==2.0.2
 mmh3==2.5.1
 pymp-pypi==0.4.0
+numpy==1.24
+tensorflow==2.12
+Pillow==10.0

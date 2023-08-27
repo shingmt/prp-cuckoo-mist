@@ -4,7 +4,7 @@ from PIL import Image
 from tensorflow.python.keras.models import load_model, Model
 from utils.utils import log
 # from main.data_helpers import load_data_x
-from cuckoo2mist import cuckoo2mist
+from main.cuckoo2mist import cuckoo2mist
 
 
 class Cuckoo2Mist_Module:

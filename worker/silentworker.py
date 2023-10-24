@@ -91,5 +91,5 @@ class SilentWorker(SilentWorkerBase):
 
         try:
             self.c2m.from_files(self._map_ohash_inputs, self.module_outdir, self.__onFinishInfer__)
-        except:
-            log('[x][SilentWorker][infer] Ouch', 'error')
+        except Exception as e:
+            log(f'[!][SilentWorker][infer] Failed with exception: {e}')

@@ -3,8 +3,8 @@
     "module_code": "prp-cuckoo-mist",
     "module_type": "preprocessor",
     "module_otype": "file",
-    "module_indir": "/home/mta-smad/smad-3/data/modules/prp-cuckoo-mist/input",
-    "module_outdir": "/home/mta-smad/smad-3/data/modules/prp-cuckoo-mist/output",
+    "module_indir": "/var/csp/data/modules/prp-cuckoo-mist/input",
+    "module_outdir": "/var/csp/data/modules/prp-cuckoo-mist/output",
     "module_input_format": "filepath",
     "module_output_format": "filepath"
 }
